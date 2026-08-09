@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "icon-exporter",
+	"version": "${version}",
+	"name": "icon-exporter",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/icon-exporter/icon.png",
+	"environment": "*",
+	"accessWidener": "icon-exporter.classtweaker",
+	"entrypoints": {
+		"main": [
+			"encrypted.iconexporter.IconExporter"
+		],
+		"client": [
+			"encrypted.iconexporter.client.IconExporterClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.3-",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
