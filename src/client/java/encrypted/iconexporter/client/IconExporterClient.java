@@ -12,7 +12,7 @@ public class IconExporterClient implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
-		LOGGER.info("DSSB Icon Exporter loaded successfully!");
+		LOGGER.info("Icon Exporter Initialized");
 
 		ClientCommandRegistrationCallback.EVENT.register(ExportCommand::register);
 	}
